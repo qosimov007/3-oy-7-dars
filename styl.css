@@ -1,0 +1,390 @@
+ 
+ 
+
+.container{
+  max-width: 1600px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero{
+  width: 1600px;
+  height: 687px;
+  flex-shrink: 0;
+  border: 1px solid white;
+  background-image: url("img/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering\ 1.png");
+  }
+
+.hero .text h1{
+  color: var(--, #FFF);
+  text-align: center;
+  font-family: Lato;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 67.2px */
+  text-transform: uppercase;
+  margin-top: 120px;
+  cursor: pointer;
+}
+
+.hero p{
+  margin-top: 20px;
+  color: var(--, #FFF);
+  text-align: center;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+  cursor: pointer;
+}
+.btn{
+  color: var(--, #FFF);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 16px */
+  background:  #AE7B3C;
+  box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
+  padding: 22px 56px;
+  border: none;
+  margin-top: 50px;
+  margin-left: 670px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.btn:hover{
+   background-color: #784405;
+   color: white;
+}
+hr{
+  width: 1200px;
+  height: 1px;
+  margin-top: 120px;
+  opacity: 0.4;
+  background: #FFF;
+}
+.icon{
+  margin-top: 40px;
+  margin-left: 200px;
+  gap: 40px;
+  display: flex;
+  margin-top: 10px;
+}
+.Picture{
+  margin-top: -15px;
+  margin-left: 1224px;
+}
+.main{
+  width: 1200px;
+  height: 596px;
+  flex-shrink: 0;
+  margin-top: 140px;
+  margin-left: 200px;
+}
+.main h1{
+  color: var(--, #282B22);
+  text-align: center;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 57.5px */
+  text-transform: uppercase;
+}
+.block{
+  display: flex;
+  gap: 29px;
+  margin-left: -80px;
+}
+.item{
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 384px;
+  height: 458px;
+}
+.item:hover{
+  cursor: pointer;
+}
+.block .item p{
+  color: var(--, #282B22);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 24px */
+  opacity: 0.5;
+  padding-left: 30px;
+}
+.block .item h2{
+  color: var(--, #3D4A39);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 24px */
+  padding-left: 30px;
+}
+.block .item img{
+  margin-left: 30px;
+  width: 354px;
+  height: 320px;
+  flex-shrink: 0;
+}
+.section{
+  width: 1600px;
+  height: 688px;
+  flex-shrink: 0;
+  background: #3D4A39;
+  margin-top: 140px;
+}
+.section h1{
+  color:  #FFF;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 57.5px */
+  text-transform: uppercase;
+  padding-top: 100px;
+  padding-left: 537px;
+}
+.block-icon{
+  display: flex;
+   gap: 285px;
+   margin-left: 404px;
+   margin-top: 73px;
+}
+.block-icon p{
+  color: var(--, #FFF);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 31.2px */
+  margin-left: -25px;
+}
+.icon-ico{
+  margin-left: -100px;
+}
+
+
+
+.aside{
+  width: 1360px;
+  height: 439px;
+  flex-shrink: 0;
+  margin-top: 100px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.aside .text {
+  display: flex;
+  gap: 107px;
+}
+.aside .text h1{
+  color: var(--, #282B22);
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 46.8px */
+  margin-top: 40px;
+}
+.aside .text .img{
+  margin-top: 103px;
+}
+hr{
+  width: 926px;
+  height: 0px;
+  background: black;
+  margin-top: -100px;
+}
+.text1{
+  width: 403px;
+  height: 108px;
+  flex-shrink: 0;
+  display: flex;
+  gap: 25px;
+  margin-left: 237px;
+}
+.text1 img{
+  margin-top: 40px;
+}
+.text1 h1{
+  color: var(--, #282B22);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 35px;
+  line-height: 150%; /* 27px */
+}
+.ht{
+  width: 1px;
+  height: 177px;
+  width: 1px;
+  height: 177px;
+  border: 1px solid black;
+  margin-left: 700px;
+  opacity: 0.2;
+  margin-top: -120px;
+}
+.text2{
+  width: 403px;
+  height: 108px;
+  flex-shrink: 0;
+  display: flex;
+  gap: 25px;
+  margin-left: 337px;
+  margin-left: 723px;
+  margin-top: -170px;
+}
+.text2 img{
+  margin-top: 40px;
+}
+.text2 h1{
+  color: var(--, #282B22);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 35px;
+  line-height: 150%; /* 27px */
+}
+.hr{
+  width: 1200px;
+  height: 0px;
+  opacity: 0.2;
+  background: black;
+  margin-top: 60px;
+}
+.container-hr{
+  margin-left: 200px;
+  width: 1200px;
+  background:  #FFF;
+  margin-top: 140px;
+}
+.container-hr h1{
+  color: var(--, #282B22);
+  text-align: center;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 57.5px */
+  text-transform: uppercase;
+}
+.container-hr .Line{
+  width: 1200px;
+  height: 0px;
+  opacity: 0.2;
+  background: #282B22;
+  margin-top: 80px;
+}
+.container-hr p{
+  color: var(--, #282B22);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 24px */
+  opacity: 0.3;
+  margin-top: 50px;
+}
+.container-hr .Line-9{
+  width: 1px;
+  height: 124px;
+  opacity: 0.2;
+  background: #282B22;
+  margin-top: -60px;
+}
+.container-hr h2{
+  color: var(--, #282B22);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 41.6px */
+  margin-left: 680px;
+  margin-top: -150px;
+}
+.container-hr .pi{
+  color: var(--, #282B22);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%; /* 21.6px */
+  margin-left: 680px;
+  margin-top: -25px;
+}
+.container-block{
+  width: 1600px;
+  height: 696px;
+  flex-shrink: 0;
+  margin-top: 140px;
+  display: flex;
+}
+.container-block .Rectangle-text{
+  background:  #3D4A39;
+  width: 800px;
+  height: 696px;
+  flex-shrink: 0;
+}
+.container-block .Rectangle-text h1{
+  color: #FFF;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 57.5px */
+  text-transform: uppercase;
+  padding-top: 100px;
+  margin-left: 200px;
+}
+.container-block .Rectangle-text p{
+  color:  #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145%; /* 23.2px */
+  opacity: 0.8;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+.container-block .Rectangle-text input{
+  margin-left: 200px;
+  margin-top: 40px;
+  border: none;
+  background: none;
+  border-radius: none;
+}
+.container-block .Rectangle-text .pol{
+  display: flex;
+  text-align: center;
+  margin-top: -40px;
+}
+.container-block .Rectangle-text .pol img{
+  margin-top: 110px;
+  margin-left: 200px;
+  
+}
+.container-block .Rectangle-text .pol h1{
+  color:  #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 14px */
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.container-block .Rectangle-text button{
+  display: flex;
+  width: 300px;
+  padding: 22px 56px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  background: #AE7B3C;
+  box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
+  border: none;
+  margin-left: 200px;
+  margin-top: 42px;
+  color:   #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 16px */
+  margin-top: 40px;
+  cursor: pointer;
+}
